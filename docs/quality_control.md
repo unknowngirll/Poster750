@@ -20,7 +20,7 @@ The initial assessment revealed the presence of adapter sequences and some drop 
 ## 2. Trimming and Filtering
 Using TrimGalore, we removed low-quality bases (Phred score < 20) and Illumina adapters.
 
-```
+```bash
 # Example command for trimming sample WH1B_089
 trim_galore --paired --quality 20 --stringency 4 \
   ../1-data/R1_fastqc/WH1B_089_R1.fastq.gz \
@@ -29,7 +29,7 @@ trim_galore --paired --quality 20 --stringency 4 \
 Results:
 Post-trimming MultiQC reports showed a significant increase in average Phred scores and successful removal of adapters across all 12 samples.
 
-![Sequence Quality After Trimming](../Results/01_Quality_Control/multiqc/Diet-Metagenomics-Study-Korean-vs-Western_multiqc_report_data/fastqc_per_base_sequence_quality_plot.txt)
+![Sequence Quality After Trimming](Results/01_Quality_Control/Diet-Metagenomics-Study-Korean-vs-Western_multiqc_report_data/fastqc_per_sequence_quality_scores_plot.txt)
 *(Note: The above plot shows that 100% of our sequences now fall within the 'Green' high-quality zone).*
 
 
