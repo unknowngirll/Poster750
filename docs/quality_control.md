@@ -12,6 +12,12 @@ fastqc -t 3 -o fastqc_results *.fastq.gz
 # Aggregate results using MultiQC
 multiqc -o multiqc fastqc_results
 ```
+The quality of raw reads was assessed using FastQC. The figure below shows the distribution of average quality scores per sequence across all 12 samples.
+
+![FastQC Quality Scores](../Results/01_Quality_Control/fastqc_per_sequence_quality_scores_plot.png)
+
+**Interpretation:**
+As shown in the plot, the majority of sequences in all samples have a mean Phred quality score above 30, peaking at approximately 38. This indicates extremely high sequencing quality, ensuring that downstream taxonomic assignments are accurate.
 Results:
 The initial assessment revealed the presence of adapter sequences and some drop in base quality towards the end of the reads.
 (Note: Click the link above to view the interactive HTML report in your browser)
