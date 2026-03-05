@@ -18,10 +18,6 @@ The quality of raw reads was assessed using FastQC. The figure below shows the d
 
 **Interpretation:**
 As shown in the plot, the majority of sequences in all samples have a mean Phred quality score above 30, peaking at approximately 38. This indicates extremely high sequencing quality, ensuring that downstream taxonomic assignments are accurate.
-Results:
-The initial assessment revealed the presence of adapter sequences and some drop in base quality towards the end of the reads.
-(Note: Click the link above to view the interactive HTML report in your browser)
-
 
 ## 2. Trimming and Filtering
 Using TrimGalore, we removed low-quality bases (Phred score < 20) and Illumina adapters.
