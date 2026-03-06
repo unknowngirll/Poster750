@@ -33,12 +33,9 @@ quast -o quast_comparison \
 ```
 ## 3.QUAST Quality Report
 
-The evaluation revealed variations in assembly contiguity and total length between the dietary cohorts.
+The evaluation generated detailed tabular reports containing key metrics such as Total Length, Number of Contigs, and N50 values for each assembled sample. You can access the raw summary tables below
 
-Click here to view the Interactive QUAST Report
-
-(Note: Click the link above to view the detailed HTML metrics
-
+[View QUAST Text Report](../Results/04_Assembly/quast_comparison/report.txt)
 ## 4.Gene Annotation (Prokka)
 
 Following assembly, Prokka was employed to identify and annotate coding sequences (CDS), generating a functional profile for each sample
