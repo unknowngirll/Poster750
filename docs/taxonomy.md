@@ -44,6 +44,6 @@ Krona was used to generate hierarchical visualizations of the gut microbiome. Th
 # Aggregating all Bracken reports into a single Krona HTML 
 ktImportTaxonomy -o microbiome_species.krona.html *.breport2
 ```
-![Krona Taxonomy Plot](../Results/3-Taxonomy/visualizations/canvas.png)
+![Krona Taxonomy Plot](../Results/02_Taxonomy/visualizations/canvas.png)
 
 * **Pavian Matrices:** Used for cross-sample comparison and Z-score analysis.
