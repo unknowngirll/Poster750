@@ -28,7 +28,8 @@ trim_galore --paired --quality 20 --stringency 4 \
   ../1-data/R1_fastqc/WH1B_089_R1.fastq.gz \
   ../1-data/R2_fastqc/WH1B_089_R2.fastq.gz
 ```
-![FastQC Quality Scores](../Results/01_Quality_Control/fastqc_per_sequence_quality_scores_plot.png)
+![trimmed_sequences_plot](../Results/Results/01_Quality_Control/cutadapt_trimmed_sequences_plot_3.png)
+![filtered_reads_plot](../Results/Results/01_Quality_Control/cutadapt_filtered_reads_plot.png)
 
 Results:
 Post-trimming MultiQC reports showed a significant increase in average Phred scores and successful removal of adapters across all 12 samples.
