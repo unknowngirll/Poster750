@@ -28,7 +28,7 @@ trim_galore --paired --quality 20 --stringency 4 \
   ../1-data/R1_fastqc/WH1B_089_R1.fastq.gz \
   ../1-data/R2_fastqc/WH1B_089_R2.fastq.gz
 ```
-![trimmed_sequences_plot](../Results/Results/01_Quality_Control/cutadapt_trimmed_sequences_plot_3.png)
+![trimmed_sequences_plot](../Results/01_Quality_Control/cutadapt_filtered_reads_plot.png)
 ![filtered_reads_plot](../Results/Results/01_Quality_Control/cutadapt_filtered_reads_plot.png)
 
 Results:
