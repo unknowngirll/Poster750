@@ -28,10 +28,12 @@ trim_galore --paired --quality 20 --stringency 4 \
   ../1-data/R1_fastqc/WH1B_089_R1.fastq.gz \
   ../1-data/R2_fastqc/WH1B_089_R2.fastq.gz
 ```
+![FastQC Quality Scores](../Results/01_Quality_Control/fastqc_per_sequence_quality_scores_plot.png)
+
 Results:
 Post-trimming MultiQC reports showed a significant increase in average Phred scores and successful removal of adapters across all 12 samples.
 
-![Sequence Quality After Trimming](../Results/01_Quality_Control/Diet-Metagenomics-Study-Korean-vs-Western_multiqc_report.html))
-*(Note: The above plot shows that 100% of our sequences now fall within the 'Green' high-quality zone).*
+![Quality control html file](../Results/01_Quality_Control/Diet-Metagenomics-Study-Korean-vs-Western_multiqc_report.html))
+
 
 
