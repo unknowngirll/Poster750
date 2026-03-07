@@ -57,3 +57,11 @@ To compare the taxonomic structure between the dietary cohorts, we generated San
 **Western High Diet (Representative Sample: WH1A):**
 ![Western Diet Sankey](Results/02_Taxonomy/visualizations/sankey_WH.png)
 *Observation: Demonstrates a distinct structural shift associated with the Western diet profile.*
+
+### Further analysis of bracken results 
+To better visualise the inter-group compositional differences between korean and western individuals before and after diet, an analysis method was adapted from https://github.com/rotheconrad/Kraken-Bracken-plot. The python script produces a barchart of the proportion of the top 10 species identified in the bracken analysis and modifications were made to produce neat groupped plots. Results were groupped according to before or after diet for each ethnic group, with the following command:
+```bash
+python Kraken_Bracken_plot.py -i bracken_input.txt -p grouped_plot.pdf -o grouped_table.tsv
+```
+**Barchart showing compositional difference**
+![grouped_plot](docs/Results/02_Taxonomy/visualizations/grouped_plot.pdf)
