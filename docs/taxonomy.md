@@ -64,4 +64,4 @@ To better visualise the inter-group compositional differences between korean and
 python Kraken_Bracken_plot.py -i bracken_input.txt -p grouped_plot.pdf -o grouped_table.tsv
 ```
 **Barchart showing compositional difference**
-![grouped_plot](docs/Results/02_Taxonomy/visualizations/grouped_plot.pdf)
+![grouped_plot](Results/02_Taxonomy/visualizations/grouped_plot.pdf)
