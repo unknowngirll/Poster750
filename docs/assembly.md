@@ -35,7 +35,7 @@ quast -o quast_comparison \
 
 The evaluation generated detailed tabular reports containing key metrics such as Total Length, Number of Contigs, and N50 values for each assembled sample. You can access the raw summary tables below
 
-[View QUAST Text Report](../Results/04_Assembly/quast/multiqc_quast.txt)
+[View QUAST Text Report](Results/04_Assembly/quast/multiqc_quast.txt)
 ## 4.Gene Annotation (Prokka)
 
 Following assembly, Prokka was employed to identify and annotate coding sequences (CDS), generating a functional profile for each sample

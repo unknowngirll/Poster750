@@ -14,7 +14,7 @@ multiqc -o multiqc fastqc_results
 ```
 The quality of raw reads was assessed using FastQC. The figure below shows the distribution of average quality scores per sequence across all 12 samples.
 
-![FastQC Quality Scores](../Results/01_Quality_Control/fastqc_per_sequence_quality_scores_plot.png)
+![FastQC Quality Scores](Results/01_Quality_Control/fastqc_per_sequence_quality_scores_plot.png)
 
 **Interpretation:**
 As shown in the plot, the majority of sequences in all samples have a mean Phred quality score above 30, peaking at approximately 38. This indicates extremely high sequencing quality, ensuring that downstream taxonomic assignments are accurate.
@@ -28,13 +28,13 @@ trim_galore --paired --quality 20 --stringency 4 \
   ../1-data/R1_fastqc/WH1B_089_R1.fastq.gz \
   ../1-data/R2_fastqc/WH1B_089_R2.fastq.gz
 ```
-![trimmed_sequences_plot](../Results/01_Quality_Control/cutadapt_filtered_reads_plot.png)
-![filtered_reads_plot](../Results/01_Quality_Control/cutadapt_trimmed_sequences_plot_3.png)
+![trimmed_sequences_plot](Results/01_Quality_Control/cutadapt_filtered_reads_plot.png)
+![filtered_reads_plot](Results/01_Quality_Control/cutadapt_trimmed_sequences_plot_3.png)
 
 Results:
 Post-trimming MultiQC reports showed a significant increase in average Phred scores and successful removal of adapters across all 12 samples.
 
-![Quality control html file](../Results/01_Quality_Control/Diet-Metagenomics-Study-Korean-vs-Western_multiqc_report.html))
+![Quality control html file](Results/01_Quality_Control/Diet-Metagenomics-Study-Korean-vs-Western_multiqc_report.html))
 
 
 

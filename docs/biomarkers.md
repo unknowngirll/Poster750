@@ -48,6 +48,6 @@ Differentially Abundant Taxa
 
 The bar chart below displays the LDA scores of the identified biomarkers. Taxa pointing in one direction are significantly enriched in the Korean diet, while those pointing in the opposite direction are enriched in the Western diet.
 
-![LEfSe](../Results/03_Biomarkers/biomarkers.png)
+![LEfSe](Results/03_Biomarkers/biomarkers.png)
 
 (Figure 1: LEfSe results detailing the differentially abundant microbial taxa between the Korean and Western diet groups. The length of the bar represents a log10 transformed LDA score
