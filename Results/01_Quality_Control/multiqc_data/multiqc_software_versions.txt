@@ -1,0 +1,4 @@
+Sample	MEGAHIT	Cutadapt	FastQC
+Cutadapt		5.2	
+FastQC			0.12.1
+MEGAHIT	1.2.9		
