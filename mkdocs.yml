@@ -1,0 +1,16 @@
+site_name: LIFE750 Metagenomics Project
+site_description: Bioinformatics workflow for comparative metagenomic analysis.
+
+theme:
+  name: material
+  palette:
+    primary: indigo
+    accent: deep purple
+
+nav:
+  - Home: index.md
+  - Overview: overview.md
+  - Quality Control: quality_control.md
+  - Taxonomic Profiling: taxonomy.md
+  - Biomarkers: biomarkers.md
+  - Assembly & Annotation: assembly.md
