@@ -44,16 +44,16 @@ Krona was used to generate hierarchical visualizations of the gut microbiome. Th
 # Aggregating all Bracken reports into a single Krona HTML 
 ktImportTaxonomy -o microbiome_species.krona.html *.breport2
 ```
-![Krona Taxonomy Plot](../Results/02_Taxonomy/visualizations/canvas.png)
+![Krona Taxonomy Plot](Results/02_Taxonomy/visualizations/canvas.png)
 
 * **Pavian Matrices:** Used for cross-sample comparison and Z-score analysis.
 ### Sankey Flow Diagrams
 To compare the taxonomic structure between the dietary cohorts, we generated Sankey diagrams. The figures below display representative samples from each group, illustrating the flow of assignments from the Domain down to the Genus level. 
 
 **Korean High Diet (Representative Sample: KH1A):**
-![Korean Diet Sankey](../Results/02_Taxonomy/visualizations/sankey_KH.png)
+![Korean Diet Sankey](Results/02_Taxonomy/visualizations/sankey_KH.png)
 *Observation: Notice the specific expansion in fiber-degrading taxonomic branches.*
 
 **Western High Diet (Representative Sample: WH1A):**
-![Western Diet Sankey](../Results/02_Taxonomy/visualizations/sankey_WH.png)
+![Western Diet Sankey](Results/02_Taxonomy/visualizations/sankey_WH.png)
 *Observation: Demonstrates a distinct structural shift associated with the Western diet profile.*
