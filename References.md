@@ -23,4 +23,6 @@ Available at : https://github.com/fbreitwieser/pavian
 
 * Magoc, T. and Salzberg, S.L. (2011). FLASH: fast length adjustment of short reads to improve genome assemblies. Bioinformatics, 27(21), pp.2957–2963. doi:https://doi.org/10.1093/bioinformatics/btr507.
 
+* rotheconrad (2025). GitHub - rotheconrad/Kraken-Bracken-plot: Creates stacked bar plots from Kracken and Bracken output. [online] GitHub. Available at: https://github.com/rotheconrad/Kraken-Bracken-plot.
+
 * Wood, D.E., Lu, J. and Langmead, B. (2019). Improved metagenomic analysis with Kraken 2. Genome Biology, 20(1). doi:https://doi.org/10.1186/s13059-019-1891-0.
