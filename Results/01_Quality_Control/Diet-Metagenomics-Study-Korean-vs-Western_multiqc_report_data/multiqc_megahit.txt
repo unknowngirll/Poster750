@@ -1,0 +1,2 @@
+Sample	megahit_mem	megahit_contigs	megahit_bases	megahit_min_contig	megahit_max_contig	megahit_avg_contig	megahit_n50	megahit_time
+log	6996.793358802795	129828	180950338	200	301002	1393	2588	4922.451444

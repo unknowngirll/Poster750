@@ -1,0 +1,151 @@
+
+SUMMARISING RUN PARAMETERS
+==========================
+Input filename: ../1-data/R1_fastqc/KH2B_103_R1.fastq.gz
+Trimming mode: paired-end
+Trim Galore version: 0.6.10
+Cutadapt version: 5.2
+Number of cores used for trimming: 1
+Quality Phred score cutoff: 20
+Quality encoding type selected: ASCII+33
+Using Nextera adapter for trimming (count: 9). Second best hit was smallRNA (count: 3)
+Adapter sequence: 'CTGTCTCTTATA' (Nextera Transposase sequence; auto-detected)
+Maximum trimming error rate: 0.1 (default)
+Minimum required adapter overlap (stringency): 4 bp
+Minimum required sequence length for both reads before a sequence pair gets removed: 20 bp
+Output file will be GZIP compressed
+
+
+This is cutadapt 5.2 with Python 3.11.9
+Command line parameters: -j 1 -e 0.1 -q 20 -O 4 -a CTGTCTCTTATA ../1-data/R1_fastqc/KH2B_103_R1.fastq.gz
+Processing single-end reads on 1 core ...
+
+=== Summary ===
+
+Total reads processed:              31,189,954
+Reads with adapters:                   207,699 (0.7%)
+Reads written (passing filters):    31,189,954 (100.0%)
+
+Total basepairs processed: 3,107,059,340 bp
+Quality-trimmed:                 287,058 bp (0.0%)
+Total written (filtered):  3,105,035,030 bp (99.9%)
+
+=== Adapter 1 ===
+
+Sequence: CTGTCTCTTATA; Type: regular 3'; Length: 12; Trimmed: 207699 times
+
+Minimum overlap: 4
+No. of allowed errors:
+1-9 bp: 0; 10-12 bp: 1
+
+Bases preceding removed adapters:
+  A: 21.6%
+  C: 21.5%
+  G: 23.7%
+  T: 33.1%
+  none/other: 0.1%
+
+Overview of removed sequences
+length	count	expect	max.err	error counts
+4	147520	121835.8	0	147520
+5	28846	30458.9	0	28846
+6	10195	7614.7	0	10195
+7	1344	1903.7	0	1344
+8	508	475.9	0	508
+9	1114	119.0	0	185 929
+10	1286	29.7	1	22 1264
+11	578	7.4	1	12 566
+12	233	1.9	1	1 232
+13	195	1.9	1	0 195
+14	180	1.9	1	5 175
+15	201	1.9	1	2 199
+16	185	1.9	1	1 184
+17	194	1.9	1	0 194
+18	182	1.9	1	3 179
+19	183	1.9	1	2 181
+20	217	1.9	1	0 217
+21	183	1.9	1	2 181
+22	179	1.9	1	1 178
+23	185	1.9	1	1 184
+24	213	1.9	1	1 212
+25	169	1.9	1	0 169
+26	176	1.9	1	2 174
+27	185	1.9	1	0 185
+28	182	1.9	1	4 178
+29	175	1.9	1	1 174
+30	214	1.9	1	1 213
+31	157	1.9	1	1 156
+32	180	1.9	1	1 179
+33	191	1.9	1	1 190
+34	174	1.9	1	1 173
+35	213	1.9	1	2 211
+36	202	1.9	1	1 201
+37	198	1.9	1	3 195
+38	183	1.9	1	2 181
+39	207	1.9	1	3 204
+40	200	1.9	1	0 200
+41	176	1.9	1	3 173
+42	175	1.9	1	1 174
+43	183	1.9	1	0 183
+44	206	1.9	1	0 206
+45	178	1.9	1	1 177
+46	190	1.9	1	0 190
+47	199	1.9	1	0 199
+48	181	1.9	1	0 181
+49	158	1.9	1	2 156
+50	187	1.9	1	2 185
+51	182	1.9	1	1 181
+52	210	1.9	1	2 208
+53	182	1.9	1	1 181
+54	197	1.9	1	1 196
+55	193	1.9	1	2 191
+56	164	1.9	1	2 162
+57	197	1.9	1	0 197
+58	173	1.9	1	0 173
+59	185	1.9	1	3 182
+60	169	1.9	1	3 166
+61	161	1.9	1	2 159
+62	201	1.9	1	3 198
+63	175	1.9	1	0 175
+64	178	1.9	1	4 174
+65	155	1.9	1	1 154
+66	210	1.9	1	0 210
+67	181	1.9	1	2 179
+68	192	1.9	1	2 190
+69	178	1.9	1	0 178
+70	189	1.9	1	0 189
+71	162	1.9	1	1 161
+72	184	1.9	1	1 183
+73	187	1.9	1	3 184
+74	164	1.9	1	2 162
+75	186	1.9	1	2 184
+76	173	1.9	1	1 172
+77	156	1.9	1	2 154
+78	141	1.9	1	2 139
+79	192	1.9	1	3 189
+80	176	1.9	1	0 176
+81	186	1.9	1	3 183
+82	179	1.9	1	1 178
+83	175	1.9	1	1 174
+84	173	1.9	1	1 172
+85	162	1.9	1	2 160
+86	179	1.9	1	2 177
+87	184	1.9	1	0 184
+88	212	1.9	1	2 210
+89	177	1.9	1	2 175
+90	168	1.9	1	1 167
+91	181	1.9	1	0 181
+92	176	1.9	1	3 173
+93	203	1.9	1	1 202
+94	192	1.9	1	0 192
+95	208	1.9	1	0 208
+96	199	1.9	1	3 196
+97	176	1.9	1	0 176
+98	148	1.9	1	1 147
+99	162	1.9	1	1 161
+100	106	1.9	1	0 106
+
+RUN STATISTICS FOR INPUT FILE: ../1-data/R1_fastqc/KH2B_103_R1.fastq.gz
+=============================================
+31189954 sequences processed in total
+

@@ -1,0 +1,2 @@
+Sample	# Contigs	Bases, Mb	Min contig length	Max contig length	Avg contig length	N50	Memory	Time
+log	129828	180.950338	200	301002	1393	2588	6996.793358802795	4922.451444
