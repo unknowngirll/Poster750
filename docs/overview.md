@@ -16,10 +16,12 @@ Our workflow integrated industry-standard bioinformatics tools:
 
 ## Group Members
 * [Nilla Rezaei]
-* [Partner Names]
-* [Partner Names]
-* [Partner Names]
-* [Partner Names]
-* University of Liverpool - LIFE750 (2026)
-* Assessment Cycle 1 (Group Poster)
+* [Freyja Redmond]
+* [Hannah Kwok]
+* [Pimnipa Srisaengsup]
+* [Shaan Basi]
+
+
+**University of Liverpool - LIFE750 (2026)**
+**Assessment Cycle 1 (Group Poster)**
 
