@@ -1,5 +1,6 @@
-# Software and Literature References
+# Software  References
 
-All bioinformatic tools and algorithms utilized in this pipeline are referenced below in Harvard style, as per the module requirements.
+All bioinformatic tools and algorithms utilized in this pipeline are referenced below
 
 ## Bioinformatics Tools
+
