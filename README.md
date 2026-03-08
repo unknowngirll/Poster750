@@ -26,7 +26,7 @@ The dataset consists of paired-end Illumina sequenced reads from 12 human faecal
 - **MEGAHIT Assembly:** These stitched reads were then assembled into contigs using MEGAHIT, to enable the analysis of longer genomic fragments
 - **Quality Control of the Assembly:** the quality of the assembly was assessed with QUAST and the number and length of the contigs were evaluated
 - **Genome Binning:** Contig depth was summarised with MetaBAT2. Genome binning was then performed with MetaBAT2 to generate MAGs
-- **Quality Control of Bins:** CheckM was used to evaluate bin quality scores, lineage, completeness, and contamination
+
 
 ## Repository Contents
 The  `docs` folder contains the following `md` files list the command line inputs, data outputs and key visualisations for each stage of the analysis:
