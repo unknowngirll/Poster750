@@ -6,8 +6,8 @@ All bioinformatic tools and algorithms utilized in this pipeline are referenced 
 
 Andrews, S. (2019). Babraham Bioinformatics - FastQC A Quality Control tool for High Throughput Sequence Data. [online] Babraham.ac.uk. Available at: http://www.bioinformatics.babraham.ac.uk/projects/fastqc/.
 
-Breitwieser, F.P. and Salzberg, S.L., 2020. Pavian: interactive analysis of metagenomics data for microbiome studies and pathogen identification. Bioinformatics, 36(4), pp.1303-1304.
-
+Breitwieser, F.P. and Salzberg, S.L., 2020. Pavian: interactive analysis of metagenomics data for microbiome studies and pathogen identification. Bioinformatics, 36(4), pp.1303-1304. 
+Available at : https://github.com/fbreitwieser/pavian
 Ewels, P., Magnusson, M., Lundin, S. and Käller, M. (2016). MultiQC: summarize analysis results for multiple tools and samples in a single report. Bioinformatics, 32(19), pp.3047–3048. doi:https://doi.org/10.1093/bioinformatics/btw354.
 
 Gurevich, A., Saveliev, V., Vyahhi, N. and Tesler, G. (2013). QUAST: quality assessment tool for genome assemblies. Bioinformatics, 29(8), pp.1072–1075. doi:https://doi.org/10.1093/bioinformatics/btt086.
